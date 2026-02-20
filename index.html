@@ -5,146 +5,137 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radha Rani Beauty Parlour | Unisex Salon in Narnaul</title>
 
-<meta name="description" content="Radha Rani Beauty Parlour is a professional unisex salon located at Nooni Mode, Narnaul. We provide haircuts, styling, facials, beard grooming and beauty services.">
-<meta name="keywords" content="Salon in Narnaul, Beauty Parlour Nooni Mode, Unisex Salon, Haircut Narnaul">
-<meta name="author" content="Nikhil Yaduvanshi">
+<meta name="description" content="Radha Rani Beauty Parlour is a premium unisex salon at Nooni Mode, Narnaul offering haircuts, facials, spa and grooming services.">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#111;color:#fff;}
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#000;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
 }
-
-body {
-    background: #fff0f5;
-    color: #333;
+nav h2{color:#ff4da6;}
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
 }
-
-header {
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding-top:80px;
 }
-
-header h1 {
-    font-size: 3rem;
+header h1{font-size:3rem;}
+header p{margin:20px 0;}
+.btn{
+background:#ff4da6;
+padding:12px 25px;
+color:white;
+border-radius:30px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
 }
-
-header p {
-    margin: 20px 0;
-    font-size: 1.2rem;
+section{padding:80px 10%;text-align:center;}
+h2{margin-bottom:40px;color:#ff4da6;}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
 }
-
-.btn {
-    padding: 12px 25px;
-    background: #ff4da6;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    margin: 10px;
-    display: inline-block;
-    transition: 0.3s;
+.card{
+background:#1c1c1c;
+padding:25px;
+border-radius:15px;
+transition:0.3s;
 }
-
-.btn:hover {
-    background: #e60073;
+.card:hover{
+transform:translateY(-5px);
 }
-
-section {
-    padding: 60px 10%;
-    text-align: center;
+footer{
+background:#000;
+text-align:center;
+padding:20px;
 }
-
-h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: #cc0066;
-}
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-footer {
-    background: #cc0066;
-    color: white;
-    padding: 20px;
-}
+iframe{width:100%;height:300px;border-radius:15px;}
 </style>
 </head>
 
 <body>
 
+<nav>
+<h2>Radha Rani</h2>
+<div>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
 <header>
-    <div>
-        <h1>Radha Rani Beauty Parlour</h1>
-        <p>Unisex Salon | Style • Beauty • Confidence</p>
-        <a href="#services" class="btn">View Services</a>
-        <a href="https://wa.me/9194675997742" class="btn">Book on WhatsApp</a>
-    </div>
+<div>
+<h1>Radha Rani Beauty Parlour</h1>
+<p>Unisex Salon | Style • Beauty • Confidence</p>
+<a href="https://wa.me/9194675997742" class="btn">Book on WhatsApp</a>
+</div>
 </header>
 
-<section>
-    <h2>About Us</h2>
-    <p>
-        Welcome to Radha Rani Beauty Parlour, a trusted unisex salon located at 
-        Nooni Mode, Narnaul. We offer professional haircuts, styling, skincare,
-        beauty treatments and grooming services in a clean and comfortable environment.
-        Your beauty and confidence are our priority.
-    </p>
+<section id="about">
+<h2>About Us</h2>
+<p>
+Located at Nooni Mode, Narnaul, Radha Rani Beauty Parlour is a professional
+unisex salon offering modern haircuts, beauty treatments and grooming services
+in a clean and friendly environment.
+</p>
 </section>
 
 <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="card">
-            <h3>Haircut & Styling</h3>
-            <p>Modern haircuts and styling for men & women.</p>
-        </div>
-        <div class="card">
-            <h3>Hair Spa</h3>
-            <p>Deep conditioning and hair repair treatment.</p>
-        </div>
-        <div class="card">
-            <h3>Facial & Cleanup</h3>
-            <p>Skin glow treatments for a fresh look.</p>
-        </div>
-        <div class="card">
-            <h3>Beard Grooming</h3>
-            <p>Precision beard shaping and trimming.</p>
-        </div>
-    </div>
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card"><h3>Haircut & Styling</h3></div>
+<div class="card"><h3>Hair Spa</h3></div>
+<div class="card"><h3>Facial & Cleanup</h3></div>
+<div class="card"><h3>Beard Grooming</h3></div>
+</div>
 </section>
 
-<section>
-    <h2>Contact Us</h2>
-    <p>Nooni Mode, Narnaul, Haryana</p>
-    <p>📞 +91 9467597742</p>
-    <p>Open: 10 AM – 8 PM</p>
+<section id="pricing">
+<h2>Pricing</h2>
+<div class="grid">
+<div class="card"><h3>Haircut</h3><p>₹150</p></div>
+<div class="card"><h3>Beard Trim</h3><p>₹100</p></div>
+<div class="card"><h3>Facial</h3><p>₹500</p></div>
+<div class="card"><h3>Hair Spa</h3><p>₹700</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Find Us</h2>
+<p>Nooni Mode, Narnaul, Haryana</p>
+<p>📞 +91 9467597742</p>
+<br>
+<iframe src="https://maps.google.com/maps?q=Narnaul&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 </section>
 
 <footer>
-    <p>© 2026 Radha Rani Beauty Parlour | All Rights Reserved</p>
+<p>© 2026 Radha Rani Beauty Parlour | All Rights Reserved</p>
 </footer>
 
 </body>
