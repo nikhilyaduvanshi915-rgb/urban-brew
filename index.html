@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Brew Café</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f5f2;
+    color: #333;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #c49b63;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #a67c52;
+}
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #6f4e37;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #6f4e37;
+    color: white;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>Urban Brew Café</h1>
+        <p>Fresh Coffee. Fresh Vibes.</p>
+        <a href="#menu" class="btn">View Menu</a>
+        <a href="https://wa.me/919999999999" class="btn">Order on WhatsApp</a>
+    </div>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        At Urban Brew Café, we believe coffee isn’t just a drink — it’s a feeling.
+        Located in the heart of Narnaul, we serve freshly brewed coffee,
+        delicious snacks, and a cozy space to relax with friends.
+    </p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="card">
+            <h3>Espresso</h3>
+            <p>₹120</p>
+        </div>
+        <div class="card">
+            <h3>Cappuccino</h3>
+            <p>₹150</p>
+        </div>
+        <div class="card">
+            <h3>Cold Coffee</h3>
+            <p>₹180</p>
+        </div>
+        <div class="card">
+            <h3>Veg Sandwich</h3>
+            <p>₹140</p>
+        </div>
+        <div class="card">
+            <h3>Brownie</h3>
+            <p>₹90</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Urban Brew Café, Narnaul</p>
+    <p>📞 +91 99999 99999</p>
+    <p>Open: 10 AM – 10 PM</p>
+</section>
+
+<footer>
+    <p>© 2026 Urban Brew Café | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
